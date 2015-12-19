@@ -1,0 +1,3 @@
+node 'Kaps' {
+  include nginx
+} 
