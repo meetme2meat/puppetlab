@@ -1,4 +1,8 @@
 class nginx {
+  ## set domain and app_path
+  $domain = ''
+  $app_path = ''
+
   package { 'apache2.2-common': 
     ensure: absent
   }
