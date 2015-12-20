@@ -1,3 +1,4 @@
-node 'Kaps' {
-  include nginx
+node werain {
+  include sudoers
 } 
+
