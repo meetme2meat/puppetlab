@@ -1,4 +1,5 @@
-node werain {
+node puppet {
   include sudoers
+  include users
 } 
 
