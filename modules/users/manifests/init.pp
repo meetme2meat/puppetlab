@@ -1,10 +1,10 @@
 class users {
-  group: { 'deployer':
+  group { 'deployer':
     ensure => present,
     before => Users['deployer']
   }
 
-  user: { 'deployer':
+  user { 'deployer':
     ensure => present,
     comment => 'git pull, push , deploy do whatever you want',
     managehome => true,
