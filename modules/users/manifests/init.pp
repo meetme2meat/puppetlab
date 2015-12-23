@@ -11,7 +11,7 @@ class users {
     managehome => true,
     home => '/home/deployer',
     shell => '/bin/bash',
-    group => 'deployer',
+    groups => 'deployer',
     password => '*'
   }
 

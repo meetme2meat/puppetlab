@@ -1,1 +1,4 @@
-import 'node.pp'
+node puppet {
+  include sudoers
+  include users
+} 
